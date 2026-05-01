@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light Checker Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<card>
+    <h1>Traffic Signal</h1>
+<div class="light-box">
+    <div id="redLight" class="light"></div>
+    <div id="yellowLight" class="light"></div>
+    <div id="greenLight" class="light"></div>
+</div>
+
+    <input type="text" id="colorInput" placeholder="Enter Color">
+    <div class="btn-group">
+        <button onclick="signalChecker()">Check</button>
+        <button onclick="resetInput()">Reset</button>
+    </div>
+    <p id="message"></p>
+</card>
+
+<script src="app.js"></script>
+</body>
+</html>
